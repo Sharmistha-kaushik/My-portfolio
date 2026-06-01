@@ -561,3 +561,71 @@ font-size:2rem;
 }
 
 }
+
+@media(max-width:768px){
+
+.navbar{
+padding:15px 5%;
+flex-direction:column;
+}
+
+.nav-links{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:10px;
+}
+
+.hero{
+min-height:100vh;
+padding-top:140px;
+}
+
+.hero-content{
+width:95%;
+padding:20px;
+}
+
+.hero h1{
+font-size:2rem;
+}
+
+.profile-img{
+width:120px;
+height:120px;
+}
+
+.stats{
+flex-direction:row;
+justify-content:center;
+gap:10px;
+}
+
+.stats div{
+width:90px;
+height:90px;
+padding:10px;
+}
+
+.stats h2{
+font-size:28px;
+}
+
+.stats p{
+font-size:12px;
+}
+
+.floating-icons{
+display:none;
+}
+
+.gallery{
+grid-template-columns:1fr;
+}
+
+section{
+padding:60px 5%;
+}
+
+}
